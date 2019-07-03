@@ -10,6 +10,12 @@ import time
 
 driver = webdriver.Chrome()
 driver.get("https://google.com")
-driver.execute_script("window.open('https://youtube.com', 'new window')")
-driver.execute_script("window.open('https://messenger.com', 'new window')")
-driver.execute_script("window.open('https://gmail.com', 'new window')")
+
+
+driver.execute_script("window.open('https://youtube.com')")
+
+
+driver.execute_script("window.open('https://messenger.com')")
+
+
+driver.execute_script("window.open('https://gmail.com')")
