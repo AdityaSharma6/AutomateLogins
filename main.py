@@ -204,9 +204,6 @@ class AutomatedLogins():
         self.github(information)
         
         
-        #array = [self.openTabs(), self.openTabs() ]
-        #for i in range(2):
-        #    array[i]
 
 if __name__ == "__main__":
     login = AutomatedLogins()
